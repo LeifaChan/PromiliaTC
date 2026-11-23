@@ -1,6 +1,6 @@
 ---
-title: Azur Promilia: DMG Formula Documentation
-description: Document by: Leifa. Thank you very much to 666bj and Mero for assistance figuring out the game’s formulas\!
+title: Azur Promilia\:* DMG Formula Documentation
+description: Document by\:* Leifa. Thank you very much to 666bj and Mero for assistance figuring out the game’s formulas\!
 ---
 *Note: Mastery Multiplier is currently unknown how and where it applies. As such it has been left out of Special DMG Formulas for the time being.*
 
