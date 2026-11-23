@@ -1,6 +1,6 @@
 ---
-title: Azur Promilia\: DMG Formula Documentation
-description: Document by\: Leifa. Thank you very much to 666bj and Mero for assistance figuring out the game’s formulas\!
+title: 'Azur Promilia: DMG Formula Documentation'
+description: 'Document by: Leifa. Thank you very much to 666bj and Mero for assistance figuring out the game’s formulas\!'
 ---
 
 *This document is very WIP and values will be finalised upon the game’s release\!*
