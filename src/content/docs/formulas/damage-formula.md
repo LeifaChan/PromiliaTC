@@ -16,14 +16,17 @@ $$
 \end{aligned}
 $$
 
-Restraint DMG \= max(1, Initial DMG × Restraint Multi)
 $$
 \begin{aligned}
 \text{Restrained DMG} &= \max\big(1, \text{Base DMG} \times \text{Restraint}\big) \\
 \end{aligned}
 $$
 
-Final DMG \= RoundEven(Restraint DMG × Global Multi × Break Multi)
+$$
+\begin{aligned}
+\text{Final DMG} &= \text{RoundEven}\Big(\text{Restrained DMG} \times \text{Global Multiplier} \times \text{Break} \Big) \\
+\end{aligned}
+$$
 
 For the full DMG Formula as one equation:
 
