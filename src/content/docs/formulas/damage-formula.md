@@ -13,7 +13,8 @@ Initial DMG \= Base DMG × DEF Multi × Elemental DMG Multi × Generic DMG Multi
 
 $$
 \begin{aligned}
-\text{Initial DMG} &= \text{Base DMG} \times \text{DEF Multiplier} \times \text{Elemental DMG} \times \text{Generic DMG} \times \text{Crit} \times \text{Mastery} \times \text{Hit Location} \times \text{Level Pressure} \\
+\text{Initial DMG} &= \text{Base DMG} \times \text{DEF Multiplier} \times \text{Elemental DMG} \times \text{Generic DMG} \\
+&\quad \times \text{Crit} \times \text{Mastery} \times \text{Hit Location} \times \text{Level Pressure} \\
 \end{aligned}
 $$
 
