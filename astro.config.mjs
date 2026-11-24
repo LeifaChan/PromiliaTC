@@ -19,6 +19,7 @@ export default defineConfig({
 			social: [{ icon: 'twitch', label: 'Twitch', href: 'https://twitch.tv/leifavt' }, 
 					 { icon: 'youtube', label: 'YouTube', href: 'https://www.youtube.com/@LeifaVT' },
 			],
+			customCss: ['katex/dist/katex.min.css'],
 			sidebar: [
 				{
 					label: 'Damage Formula',
