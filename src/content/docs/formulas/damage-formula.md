@@ -9,8 +9,6 @@ description: 'Document by: Leifa. Thank you very much to 666bj and Mero for assi
 
 Although DMG is all multiplication, there are three key stages to the DMG formula:
 
-Initial DMG \= Base DMG × DEF Multi × Elemental DMG Multi × Generic DMG Multi × Crit Multi × Mastery Multi × Hit Location Multi × Level Pressure Multi
-
 $$
 \begin{aligned}
 \text{Initial DMG} &= \text{Base DMG} \times \text{DEF Multiplier} \times \text{Elemental DMG} \times \text{Generic DMG} \\
@@ -19,6 +17,11 @@ $$
 $$
 
 Restraint DMG \= max(1, Initial DMG × Restraint Multi)
+$$
+\begin{aligned}
+\text{Restrained DMG} &= \max\big(1, \text{Base DMG} \times \text{Restraint}\big) \\
+\end{aligned}
+$$
 
 Final DMG \= RoundEven(Restraint DMG × Global Multi × Break Multi)
 
