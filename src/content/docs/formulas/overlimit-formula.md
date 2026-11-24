@@ -89,6 +89,6 @@ Compared to Normal DMG and True DMG, Overlimit DMG only benefits from Break Vuln
 
 $$
 \begin{aligned}
-\text{Break} &= (1 + \text{Break Vulnerability}) \\
+\text{Break Multiplier} &= (1 + \text{Break Vulnerability}) \\
 \end{aligned}
 $$
