@@ -142,7 +142,8 @@ Effective DEF \= max(0, Target’s Combat DEF \- Attacker’s Flat DEF Penetrati
 
 $$
 \begin{aligned}
-\text{Effective DEF} = \max\Big(0,\; (\text{Target's Combat DEF} - \text{Flat DEF Penetration}) \times (1 - \text{DEF Penetration\%})\Big) \\
+\text{Effective DEF} = \max\Big(0,\; (\text{Target's Combat DEF} - \text{Flat DEF Penetration}) \\
+&\quad \times (1 - \text{DEF Penetration\%})\Big) \\
 \end{aligned}
 $$
 
