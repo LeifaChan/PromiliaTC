@@ -284,10 +284,9 @@ DoT DMG \= RoundEven(max(1, Base DMG × DEF Multi × Elemental DMG Multi × Gene
 
 $$
 \begin{aligned}
-\text{DoT DMG} &= \text{RoundEven}\Big( \max\big(1, \\
-&\quad \text{Base DMG} \times \text{DEF Multi} \times \text{Elemental DMG Multi} \\
-&\quad \times \text{Generic DMG Multi} \times \text{Mastery Multi} \\
-&\quad \times \text{Level Pressure Multi}\big) \times \text{Restraint Multi} \Big) \\
+\text{DoT DMG} &= \text{RoundEven}\Big( \max\big(1, \text{Base DMG} \times \text{DEF Multi} \\
+&\quad \times \text{Elemental DMG} \times \text{Generic DMG} \times \text{Mastery} \\
+&\quad \times \text{Level Pressure}\big) \times \text{Restraint} \Big) \\
 \end{aligned}
 $$
 
