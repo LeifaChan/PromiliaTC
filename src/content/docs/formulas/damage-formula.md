@@ -17,7 +17,9 @@ Final DMG \= RoundEven(Restraint DMG × Global Multi × Break Multi)
 
 For the full DMG Formula as one equation:
 
+$$
 Final DMG \= RoundEven(max(1, Base DMG × DEF Multi × Elemental DMG Multi × Generic DMG Multi × Crit Multi × Mastery Multi × Hit Location Multi × Level Pressure Multi × Restraint Multi) × Global Multi × Break Multi)
+$$
 
 ## Base DMG and Staged Stat Calculations
 
