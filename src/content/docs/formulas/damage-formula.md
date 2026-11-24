@@ -175,13 +175,31 @@ Generic DMG Bonus and DMG Reduction sources are a separate multiplier to Element
 
 Generic DMG Multiplier \= 1 \+ DMG Bonus \- DMG Reduction
 
+$$
+\begin{aligned}
+\text{Generic DMG} &= 1 + \text{DMG Bonus} - \text{DMG Reduction} \\
+\end{aligned}
+$$
+
 ## Crit Multiplier
 
 When a critical hit occurs, the game multiplies DMG by the displayed CRIT DMG value, rather than adding 1 to the initial multiplier:
 
 CRIT Multiplier \= Combat CRIT DMG \- Combat CRIT DMG Reduction
 
+$$
+\begin{aligned}
+\text{Crit Multiplier} &= \text{Combat Crit DMG} - \text{Combat Crit Dmg Reduction} \\
+\end{aligned}
+$$
+
 Effective CRIT Multiplier \= 1 \+ Effective CRIT Rate × (CRIT Multiplier \- 1\)
+
+$$
+\begin{aligned}
+\text{Effective Crit Multiplier} &= 1 + \text{Effective Crit Rate} \times (\text{DMG Reduction} - 1) \\
+\end{aligned}
+$$
 
 ### CRIT Rate
 
