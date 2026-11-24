@@ -3,7 +3,7 @@ title: 'Azur Promilia: DMG Formula Documentation'
 description: 'Document by: Leifa. Thank you very much to 666bj and Mero for assistance figuring out the game’s formulas\!'
 ---
 
-*This document is very WIP and values will be finalised upon the game’s release\!*
+*This document is very WIP and values will be finalised upon the game’s release!*
 
 ## Default DMG Formula
 
@@ -122,9 +122,9 @@ Effective CRIT Rate \= min(1, max(0, Combat CRIT Rate \- Combat CRIT Rate Resist
 
 ## Mastery Multiplier
 
-Also called Overlimit Strength, but now affects all DMG as of the release version. Normal DMG utilises a different Mastery Coefficient to Overlimit DMG which is currently unknown.
+Also called Overlimit Strength, but now affects all DMG as of the release version. Normal DMG utilises a different Mastery Coefficient to Overlimit DMG. For Overlimit DMG mechanics, please see the Overlimit DMG document.
 
-Mastery Multiplier \= 1 \+ Overlimit Strength / Mastery Coefficient
+Mastery Multiplier \= 1 \+ Overlimit Strength / 4000
 
 ## Hit Location Multiplier
 
