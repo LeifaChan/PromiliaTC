@@ -84,8 +84,6 @@ $$
 
 The combination of the white and green stat numbers seen in a character’s stat page.These take place outside of combat. The green number shows the difference between Initial and Base Stat values for ATK, HP and DEF, while other stats only show their combined totals. For display, character stats are rounded down but still retain all decimals.   
    
-Initial Stats \= Base Stat × (1 \+ Initial Stat%) \+ Flat Initial Stat
-
 $$
 \begin{aligned}
 \text{Initial Stats} &= \text{Base Stat} \times \big(1 + \text{Initial Stat\%}\big) + \text{Flat Initial Stat} \\
@@ -104,6 +102,14 @@ Some specific skills and DoT effects do not check the attacker’s current Comba
 Upon entering combat, In Combat buffs, auras (such as Elemental Tuning Marks), equipment skill passives and debuffs take place on top of the Initial Stats dynamically. 
 
 Combat Stats \= ((Initial Stat \+ In Combat Base Changes) × (1 \+ Combat Stat%) \+ Flat Combat Stat) × Global Scaling Coefficient
+
+$$
+\begin{aligned}
+\text{Combat Stats} &= \big(\big(\text{Initial Stat} + \text{Combat Base Changes}\big) \\
+&\quad \times \big(1 + \text{Combat Stat\%}\big) + \text{Flat Combat Stat}\big) \times \text{Global Scaling Coefficient} \\
+\end{aligned}
+$$
+
 
 Some effects grant a “Forced Numerical Override”, replacing any stat calculated in the Combat Stat step before multiplying by the Global Scaling Coefficient.
 
