@@ -106,7 +106,8 @@ Combat Stats \= ((Initial Stat \+ In Combat Base Changes) × (1 \+ Combat Stat%)
 $$
 \begin{aligned}
 \text{Combat Stats} &= \big(\big(\text{Initial Stat} + \text{Combat Base Changes}\big) \\
-&\quad \times \big(1 + \text{Combat Stat\%}\big) + \text{Flat Combat Stat}\big) \times \text{Global Scaling Coefficient} \\
+&\quad \times \big(1 + \text{Combat Stat\%}\big) + \text{Flat Combat Stat}\big) \\
+&\quad \times \text{Global Scaling Coefficient} \\
 \end{aligned}
 $$
 
