@@ -31,6 +31,8 @@ $$
 \end{aligned}
 $$
 
+<div class="nowrap-cols">
+
 | Overdrive Type | Required Sigil | Overdrive Effect |
 | --- | --- | --- |
 | BLAST | Fire Sigil | Deals Fire Overlimit DMG and deals additional Fire Overlimit DMG equal to 10.0% of the triggering character's ATK per Sigil consumed per second for 6s.|
@@ -42,3 +44,6 @@ $$
 | SHOCK | Lightning Sigil | Deals Lightning Overlimit DMG and increases the active character's DEF Penetration by 0.3% per Sigil consumed for 15s. |
 | EXPOSURE | Light Sigil | Deals Light Overlimit DMG and additional True DMG equal to 30% of the triggering character's ATK per Sigil consumed. |
 | SHATTER | Dark Sigil | Deals Dark Overlimit DMG and decreases the target's Elemental DMG Resistance by 0.4% per Sigil consumed for 15s. |
+
+</div>
+

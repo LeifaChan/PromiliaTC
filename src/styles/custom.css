@@ -10,3 +10,10 @@
   overflow-y: hidden;
   padding: 0.5rem 0;
 }
+
+.nowrap-cols table th:nth-child(1),
+.nowrap-cols table td:nth-child(1),
+.nowrap-cols table th:nth-child(2),
+.nowrap-cols table td:nth-child(2) {
+  white-space: nowrap;
+}
