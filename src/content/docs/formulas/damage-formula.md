@@ -66,7 +66,7 @@ Character Base Stats \= Level Base Growth Value \+ Ascension Bonus \+ Star Gift 
 
 $$
 \begin{aligned}
-\text{Character Base Stats} &= \text{Level Base Growth Value} \add \text{Ascension Bonus} \add \text{Star Gift Bonus} \add \text{Lumen Base Value}  \add \text{String Tuning Base Stat} \\
+\text{Character Base Stats} &= \text{Level Base Growth Value} + \text{Ascension Bonus} + \text{Star Gift Bonus} + \text{Lumen Base Value} + \text{String Tuning Base Stat} \\
 \end{aligned}
 $$
 
