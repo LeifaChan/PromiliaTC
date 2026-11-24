@@ -21,7 +21,7 @@ When characters or Kibo use specific skills, they can generate or consume Elemen
 | Light Sigil | Deals 1.0% of the active character's ATK per Sigil as Light Overlimit DMG every 5s. |
 | Dark Sigil | Increases Elemental DMG Bonus by 0.4% per Sigil. |
 
-## Overdrive System
+## Overdrive System and Overlimit DMG
 
 When characters or Kibo consume Elemental Sigils, they trigger the Overdrive effect of that specific Element, dealing Overlimit DMG based on the triggering character's ATK and granting additional buffs.
 
@@ -31,5 +31,14 @@ $$
 \end{aligned}
 $$
 
-| Overdrive Type | Overdrive effect |
-| --- | --- |
+| Overdrive Type | Required Sigil | Overdrive Effect |
+| --- | --- | --- |
+| BLAST | Fire Sigil | Deals Fire Overlimit DMG and deals additional Fire Overlimit DMG equal to 10.0% of the triggering character's ATK per Sigil consumed per second for 6s.|
+| DROWN | Water Sigil | Deals Water Overlimit DMG and reduces the target's DEF by 0.5% per Sigil consumed for 15s. |
+| FREEZE | Ice Sigil | Deals Ice Overlimit DMG and freezes the target for 0.5s per Sigil consumed. This effect has no ICD. |
+| CYCLONE | Wind Sigil | Deals Wind Overlimit DMG and grants 0.3 Stardecree Charge per Sigil consumed to the active character. |
+| BLOOM | Nature Sigil | Deals Nature Overlimit DMG and increases the team's Overlimit Strength by 0.6% per Sigil consumed for 15s. |
+| EXCESS | Earth Sigil | Deals Earth Overlimit DMG and increases Poise Break Efficiency against the target by 0.2% per Sigil consumed for 15s. |
+| SHOCK | Lightning Sigil | Deals Lightning Overlimit DMG and increases the active character's DEF Penetration by 0.3% per Sigil consumed for 15s. |
+| EXPOSURE | Light Sigil | Deals Light Overlimit DMG and additional True DMG equal to 30% of the triggering character's ATK per Sigil consumed. |
+| SHATTER | Dark Sigil | Deals Dark Overlimit DMG and decreases the target's Elemental DMG Resistance by 0.4% per Sigil consumed for 15s. |
