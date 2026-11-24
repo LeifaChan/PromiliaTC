@@ -281,8 +281,6 @@ $$
 DoT effects typically can not trigger a Critical Hit unless “Can Crit” is set to true. Most default Elemental DoTs can not Crit, while enhanced DoTs from specific character effects can Crit. They additionally do not benefit from modifiers part of the Final DMG stage of the DMG Formula, nor do they benefit from Hit Location. 
 *Note: This formula will need double checking again in case*
 
-DoT DMG \= RoundEven(max(1, Base DMG × DEF Multi × Elemental DMG Multi × Generic DMG Multi × Mastery Multi × Level Pressure Multi) × Restraint Multi)
-
 $$
 \begin{aligned}
 \text{DoT DMG} &= \text{RoundEven}\Big( \max\big(1, \text{Base DMG} \times \text{DEF Multi} \\
@@ -295,8 +293,6 @@ $$
 
 True DMG ignores all multipliers that affect Initial DMG and Restraint DMG, aside from the Mastery Multiplier and Hit Location Multiplier, giving the following formula:
 
-True DMG \= RoundEven(max(1, Base DMG  × Mastery Multi × Hit Location Multi) × Break Multi × Global Multi)
-
 $$
 \begin{aligned}
 \text{True DMG} &= \text{RoundEven}\Big( \max\big(1, \text{Base DMG} \times \text{Mastery} \\
@@ -308,8 +304,6 @@ True DMG additionally ignores any Shields the target currently has, directly red
 
 ### Healing Formula
 
-Final Healing \= RoundEven(Base Healing × (1 \+ Healing Bonus% \+ Incoming Healing Bonus) × Global Multi)
-
 $$
 \begin{aligned}
 \text{Final Healing} &= \text{RoundEven}\Big( \text{Base Healing} \times (1 + \text{Healing Bonus\%} \\
@@ -320,7 +314,6 @@ $$
 #### Base Healing
 
 Currently, the Stats used for Healing can be one of ATK, Max HP or DEF:  
-Base Healing \= Stat × Skill Healing Multiplier
 
 $$
 \begin{aligned}
@@ -329,8 +322,6 @@ $$
 $$
 
 ### Shield Generation Formula
-
-Shield Generation \= Base Stat × Shield Multiplier × (1 \+ Shield Effectiveness Bonus)
 
 $$
 \begin{aligned}
@@ -342,8 +333,6 @@ $$
 
 Lifesteal uses the final amount of DMG dealt to the target’s HP gauge as an Integer after any reduction from Shields:
 
-Lifesteal Healing \= Final HP DMG Dealt × Lifesteal Skill Multiplier
-
 $$
 \begin{aligned}
 \text{Lifesteal} &= \text{Final HP DMG Dealt} \times \text{Lifesteal Skill Multiplier} \\
@@ -351,8 +340,6 @@ $$
 $$
 
 DMG Reflection on the other hand uses the full DMG taken by the target as its input:
-
-DMG Reflection \= Total Final DMG Dealt × Reflection Skill Multiplier
 
 $$
 \begin{aligned}
