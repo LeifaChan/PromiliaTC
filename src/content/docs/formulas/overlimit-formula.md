@@ -75,7 +75,7 @@ $$
 
 ## Break Multiplier
 
-Compared to Normal DMG and True DMG, Overlimit DMG only benefits from Break Vulnerability and does not benefit from Direct Break Vulnerability. The +100% Break Vulnerability when Broken is shared amongst all DMG Types.
+Compared to Normal DMG and True DMG, Overlimit DMG only benefits from Break Vulnerability and does not benefit from Direct Break Vulnerability. The +100% Break Vulnerability when Broken is shared amongst all damage formulas.
 
 $$
 \begin{aligned}
