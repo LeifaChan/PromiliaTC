@@ -7,13 +7,14 @@ description: 'Document by: Leifa. Thank you very much to 666bj and Mero for assi
 
 ## Overlimit DMG Formula
 
-The full DMG formula for Overlimit DMG is as follows:
+Only new Multipliers or Multipliers that work differently will be covered on this page. For all traditional Multipliers, please see the General Damage Formula doc. The full DMG formula for Overlimit DMG is as follows:
 
 $$
 \begin{aligned}
 \text{Overlimit DMG} &= \text{RoundEven}\Big( \max\big(1, \text{Base DMG} \times \text{DEF Multiplier} \\
-&\quad \times \text{Elemental DMG} \times \text{Generic DMG} \times \text{Overlimit Crit} \times \text{Mastery} \\
-&\quad \times \text{Hit Location} \times \text{Level Pressure} \times \text{Restraint}\big) \Big) \\
+&\quad \times \text{Elemental DMG} \times \text{Generic DMG} \times \text{Overlimit Crit} \\
+&\quad \times \text{Mastery} \times \text{Hit Location} \times \text{Level Pressure} \times \text{Restraint}\big) \\
+&\quad \times \text{Global Multiplier} \times \text{Break} \Big) \\
 \end{aligned}
 $$
 
