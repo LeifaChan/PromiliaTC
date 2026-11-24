@@ -20,8 +20,8 @@ For the full DMG Formula as one equation:
 $$
 \begin{aligned}
 \text{Final DMG} &= \text{RoundEven}\Big( \max\big(1, \text{Base DMG} \times \text{DEF Multiplier} \\
-&\quad  \times \text{Elemental DMG} \times \text{Generic DMG} \times \text{Crit} \times \text{Mastery} \\
-&\quad  \times \text{Hit Location} \times \text{Level Pressure} \times \text{Restraint}\big) \times \text{Global Multiplier} \times \text{Break} \Big) \\
+&\quad  \times \text{Elemental DMG} \times \text{Generic DMG} \times \text{Crit} \times \text{Mastery} \times \text{Hit Location} \\
+&\quad  \times \text{Level Pressure} \times \text{Restraint}\big) \times \text{Global Multiplier} \times \text{Break} \Big) \\
 \end{aligned}
 $$
 
