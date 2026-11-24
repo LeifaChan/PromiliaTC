@@ -45,8 +45,6 @@ $$
 Base DMG handles the attack’s respective Skill Multiplier and the Stat used. The Stat used can either be the caster’s current stat or a snapshotted stat at the time of casting for specific abilities.   
 Currently, ATK is the primary Stat utilised by most skills, while Max HP and DEF can be but are less utilised:
 
-Base DMG \= Stat × Skill Multiplier
-
 $$
 \begin{aligned}
 \text{Base DMG} &= \text{Stat} \times \text{Skill Multiplier} \\
@@ -71,8 +69,6 @@ $$
 \end{aligned}
 $$
 
-Kibo Base Stats \= (Level Base Growth Value × Nature Multiplier × Six-Stat Aptitude Multiplier) \+ Origin Vein Bonus
-
 $$
 \begin{aligned}
 \text{Kibo Base Stats} &= \text{Level Base Growth Value} \times \text{Nature Multi} \\
@@ -80,11 +76,9 @@ $$
 \end{aligned}
 $$
 
-Kibo Base CRIT Rate \= Base Crit Rate \+ Crit Aptitude Bonus \+ Origin Vein Bonus
-
 $$
 \begin{aligned}
-\text{Kibo Based Crit Rate} &= \text{Base Crit Rate} + \text{Crit Aptitude Bonus} + \text{Origin Vein Bonus} \\
+\text{Kibo Base Crit Rate} &= \text{Base Crit Rate} + \text{Crit Aptitude Bonus} + \text{Origin Vein Bonus} \\
 \end{aligned}
 $$
 
