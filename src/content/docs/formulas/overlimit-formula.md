@@ -43,4 +43,14 @@ $$
 | EXPOSURE | Light Sigil | Deals Light Overlimit DMG and additional True DMG equal to 30% of the triggering character's ATK per Sigil consumed. |
 | SHATTER | Dark Sigil | Deals Dark Overlimit DMG and decreases the target's Elemental DMG Resistance by 0.4% per Sigil consumed for 15s. |
 
+## Overlimit DMG Formula
 
+$$
+\begin{aligned}
+\text{Final Overlimit DMG} &= \text{RoundEven}\Big( \max\big(1, \text{Overlimit Base DMG} \times \text{DEF Multiplier} \\
+&\quad \times \text{Elemental DMG} \times \text{Generic DMG} \times \text{Overlimit Crit} \times \text{Mastery} \\
+&\quad \times \text{Hit Location} \times \text{Level Pressure} \times \text{Restraint}\big) \Big) \\
+\end{aligned}
+$$
+
+Final Overlimit DMG = RoundEven(max(1, Overlimit Base DMG * DEF Multiplier * Mastery * Overlimit Crit * Elemental DMG * Generic DMG * Hit Location * Level Pressure * Restraint) 
