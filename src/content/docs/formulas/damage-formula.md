@@ -116,8 +116,6 @@ Stats such as DMG Bonuses and CRIT Rate that are always displayed as percentages
 
 ## DEF Multiplier
 
-DEF Multiplier \= ALC / (ALC \+ Effective DEF)
-
 $$
 \begin{aligned}
 \text{DEF Multiplier} = \frac{\text{ALC}}{\text{ALC} + \text{Effective DEF}} \\
@@ -126,15 +124,27 @@ $$
 
 ### Attacker Level Coefficient
 
-The Attacker Level Coefficient (referred to as ALC) is determined based on the attacker’s level and increases linearly:
+The Attacker Level Coefficient (shortened to ALC) is determined based on the attacker’s level and increases linearly:
 
 ALC \= 500 \+ 5 × Attacker Level
+
+$$
+\begin{aligned}
+\text{ALC} &= 500 + 5 \times \text{Attacker Level} \\
+\end{aligned}
+$$
 
 ### Effective DEF
 
 Flat sources of DEF PEN take place before DEF PEN%. Effective DEF can not go below 0\.
 
 Effective DEF \= max(0, Target’s Combat DEF \- Attacker’s Flat DEF Penetration) × (1 \- Attacker’s DEF Penetration%))
+
+$$
+\begin{aligned}
+\text{Effective DEF} = \max\Big(0,\; (\text{Target's Combat DEF} - \text{Flat DEF Penetration}) \times (1 - \text{DEF Penetration\%})\Big) \\
+\end{aligned}
+$$
 
 ### Enemy Base DEF
 
