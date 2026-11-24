@@ -329,7 +329,7 @@ $$
 \end{aligned}
 $$
 
-### Lifesteal and DMG Reflection Formulas
+### Lifesteal Formula
 
 Lifesteal uses the final amount of DMG dealt to the target’s HP gauge as an Integer after any reduction from Shields:
 
@@ -339,7 +339,9 @@ $$
 \end{aligned}
 $$
 
-DMG Reflection on the other hand uses the full DMG taken by the target as its input:
+### DMG Reflection Formula
+
+DMG Reflection uses the full DMG taken by the target as its input, regardless of if dealt to Shields or HP:
 
 $$
 \begin{aligned}
