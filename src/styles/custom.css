@@ -1,7 +1,12 @@
-/* In src/styles/custom.css */
 @import 'katex/dist/katex.min.css';
 
-/* Fixes tall parentheses/roots in Starlight */
 .katex-html svg {
   height: inherit;
+}
+
+.katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem 0;
 }
