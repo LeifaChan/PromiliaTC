@@ -18,7 +18,7 @@ $$
 
 $$
 \begin{aligned}
-\text{Restrained DMG} &= \max\big(1, \text{Base DMG} \times \text{Restraint}\big) \\
+\text{Restraint DMG} &= \max\big(1, \text{Initial DMG} \times \text{Restraint}\big) \\
 \end{aligned}
 $$
 
