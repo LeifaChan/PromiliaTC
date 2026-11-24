@@ -60,8 +60,6 @@ ATK, Max HP, DEF, CRIT Rate, CRIT DMG, Overlimit Strength, Poise DMG, Elemental 
 
 The white stat number seen in a character’s stat page. Base Max HP is Floored before entering Initial Stats, while all other stats retain all decimals.
 
-Character Base Stats \= Level Base Growth Value \+ Ascension Bonus \+ Star Gift Bonus \+ Lumen Base Value \+ String Tuning Base Stat
-
 $$
 \begin{aligned}
 \text{Character Base Stats} &= \text{Level Base Growth Value} + \text{Ascension Bonus} + \text{Star Gift Bonus} \\
@@ -87,6 +85,12 @@ $$
 The combination of the white and green stat numbers seen in a character’s stat page.These take place outside of combat. The green number shows the difference between Initial and Base Stat values for ATK, HP and DEF, while other stats only show their combined totals. For display, character stats are rounded down but still retain all decimals.   
    
 Initial Stats \= Base Stat × (1 \+ Initial Stat%) \+ Flat Initial Stat
+
+$$
+\begin{aligned}
+\text{Initial Stats} &= \text{Base Stat} \times \big(1 + \text{Initial Stat\%}\big) + \text{Flat Initial Stat} \\
+\end{aligned}
+$$
 
 Initial Percent Stats include Lumen % substats, equipment main and secondary % stats (e.g. ATK%, HP%, DEF%), High-Rank Ascension ATK%, Tuning % buffs, “Kibo Factor Chain” and “Shining Aptitude buffs”.  
 Flat Initial Stats include equipment flat stats (e.g. Flat ATK, Flat HP, Flat DEF) and character Affinity bonuses. 
