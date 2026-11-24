@@ -5,6 +5,18 @@ description: 'Document by: Leifa. Thank you very much to 666bj and Mero for assi
 
 *This document is very WIP and values will be finalised upon the game’s release!*
 
+## Overlimit DMG Formula
+
+The full DMG formula for Overlimit DMG is as follows:
+
+$$
+\begin{aligned}
+\text{Overlimit DMG} &= \text{RoundEven}\Big( \max\big(1, \text{Base DMG} \times \text{DEF Multiplier} \\
+&\quad \times \text{Elemental DMG} \times \text{Generic DMG} \times \text{Overlimit Crit} \times \text{Mastery} \\
+&\quad \times \text{Hit Location} \times \text{Level Pressure} \times \text{Restraint}\big) \Big) \\
+\end{aligned}
+$$
+
 ## Elemental Sigils
 
 When characters or Kibo use specific skills, they can generate or consume Elemental Sigils. Sigils are a resource shared by the whole team and grant a buff both when active. Up to a maximum of 5 Sigils of each Element can be held at once, with repeated triggers past 5 refreshing their duration. If no Sigils of a specific Element are gained for a set period of time, they will naturally decay and disappear one by one. Each Element has its own Elemental Sigil with different effects:
@@ -42,15 +54,3 @@ $$
 | SHOCK | Lightning Sigil | Deals Lightning Overlimit DMG and increases the active character's DEF Penetration by 0.3% per Sigil consumed for 15s. |
 | EXPOSURE | Light Sigil | Deals Light Overlimit DMG and additional True DMG equal to 30% of the triggering character's ATK per Sigil consumed. |
 | SHATTER | Dark Sigil | Deals Dark Overlimit DMG and decreases the target's Elemental DMG Resistance by 0.4% per Sigil consumed for 15s. |
-
-## Overlimit DMG Formula
-
-$$
-\begin{aligned}
-\text{Overlimit DMG} &= \text{RoundEven}\Big( \max\big(1, \text{Base DMG} \times \text{DEF Multiplier} \\
-&\quad \times \text{Elemental DMG} \times \text{Generic DMG} \times \text{Overlimit Crit} \times \text{Mastery} \\
-&\quad \times \text{Hit Location} \times \text{Level Pressure} \times \text{Restraint}\big) \Big) \\
-\end{aligned}
-$$
-
-Final Overlimit DMG = RoundEven(max(1, Overlimit Base DMG * DEF Multiplier * Mastery * Overlimit Crit * Elemental DMG * Generic DMG * Hit Location * Level Pressure * Restraint) 
