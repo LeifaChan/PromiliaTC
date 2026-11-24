@@ -5,9 +5,9 @@ description: 'Document by: Leifa. Thank you very much to 666bj and Mero for assi
 
 *This document is very WIP and values will be finalised upon the game’s release!*
 
-## Overdrive System
+## Elemental Sigils
 
-When characters or Kibo use specific skills, they can generate or consume Elemental Sigils. Sigils are a resource shared by the whole team and grant a buff both when active and once consumed based on their Element. Up to a maximum of 5 Sigils of each Element can be held at once, with repeated triggers past 5 refreshing their duration. If no Sigils of a specific Element are gained for a set period of time, they will naturally decay and disappear one by one. Each Element has its own Elemental Sigil with different effects:
+When characters or Kibo use specific skills, they can generate or consume Elemental Sigils. Sigils are a resource shared by the whole team and grant a buff both when active. Up to a maximum of 5 Sigils of each Element can be held at once, with repeated triggers past 5 refreshing their duration. If no Sigils of a specific Element are gained for a set period of time, they will naturally decay and disappear one by one. Each Element has its own Elemental Sigil with different effects:
 
 | Sigil Type | Sigil Effect |
 | --- | --- |
@@ -21,3 +21,15 @@ When characters or Kibo use specific skills, they can generate or consume Elemen
 | Light Sigil | Deals 1.0% of the active character's ATK per Sigil as Light Overlimit DMG every 5s. |
 | Dark Sigil | Increases Elemental DMG Bonus by 0.4% per Sigil. |
 
+## Overdrive System
+
+When characters or Kibo consume Elemental Sigils, they trigger the Overdrive effect of that specific Element, dealing Overlimit DMG based on the triggering character's ATK and granting additional buffs.
+
+$$
+\begin{aligned}
+\text{Overlimit Base DMG} &= 40.0\% \times \text{Sigils Consumed} \times \text{ATK} \\
+\end{aligned}
+$$
+
+| Overdrive Type | Overdrive effect |
+| --- | --- |
