@@ -1,0 +1,7 @@
+/* In src/styles/custom.css */
+@import 'katex/dist/katex.min.css';
+
+/* Fixes tall parentheses/roots in Starlight */
+.katex-html svg {
+  height: inherit;
+}
