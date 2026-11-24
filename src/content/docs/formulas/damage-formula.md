@@ -197,7 +197,7 @@ Effective CRIT Multiplier \= 1 \+ Effective CRIT Rate × (CRIT Multiplier \- 1\)
 
 $$
 \begin{aligned}
-\text{Effective Crit Multiplier} &= 1 + \text{Effective Crit Rate} \times (\text{DMG Reduction} - 1) \\
+\text{Effective Crit Multiplier} &= 1 + \text{Effective Crit Rate} \times (\text{Crit Multiplier} - 1) \\
 \end{aligned}
 $$
 
@@ -205,7 +205,11 @@ $$
 
 To determine if an attack results in a Critical Hit, the game rolls a random number between 0 and 1\. IF this number is less than the attack’s Effective CRIT Rate, the resulting hit is a Critical Hit.
 
-Effective CRIT Rate \= min(1, max(0, Combat CRIT Rate \- Combat CRIT Rate Resistance)
+$$
+\begin{aligned}
+\text{Effective CRIT Rate} = \min\Big(1,\; \max(0,\; \text{Combat CRIT Rate} - \text{Combat CRIT Rate Resistance})\Big) \\
+\end{aligned}
+$$
 
 ## Mastery Multiplier
 
