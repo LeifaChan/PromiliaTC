@@ -163,11 +163,9 @@ Currently, enemy DEF changes based on their DEF Coefficient. This varies between
 
 The Elemental DMG Multiplier includes both Elemental DMG Bonuses and Elemental DMG Resistance stats. Currently, 11 different Elemental types exist: Fire, Wind, Earth, Wood, Ice, Water, Lightning, Light, Dark, Physical and “All Elements”. Effects that specify an Element such as “Fire DMG \+X%” or “Enemy Fire Resistance \+X%” are found here.
 
-Elemental DMG Multiplier \= 1 \+ Elemental DMG Bonus \- Elemental DMG Resistance
-
 $$
 \begin{aligned}
-\text{Elemental DMG} &= 1 + text{Elemental DMG Bonus} - \text{Elemental DMG Resistance} \\
+\text{Elemental DMG} &= 1 + \text{Elemental DMG Bonus} - \text{Elemental DMG Resistance} \\
 \end{aligned}
 $$
 
