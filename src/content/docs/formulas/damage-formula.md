@@ -279,6 +279,7 @@ $$
 ### Damage over Time Formula
 
 DoT effects typically can not trigger a Critical Hit unless “Can Crit” is set to true. Most default Elemental DoTs can not Crit, while enhanced DoTs from specific character effects can Crit. They additionally do not benefit from modifiers part of the Final DMG stage of the DMG Formula, nor do they benefit from Hit Location. 
+*Note: This formula will need double checking again in case*
 
 DoT DMG \= RoundEven(max(1, Base DMG × DEF Multi × Elemental DMG Multi × Generic DMG Multi × Mastery Multi × Level Pressure Multi) × Restraint Multi)
 
@@ -298,9 +299,8 @@ True DMG \= RoundEven(max(1, Base DMG  × Mastery Multi × Hit Location Multi) �
 
 $$
 \begin{aligned}
-\text{True DMG} &= \text{RoundEven}\Big( \max\big(1, \\
-&\quad \text{Base DMG} \times \text{Mastery Multi} \times \text{Hit Location Multi}\big) \\
-&\quad \times \text{Break Multi} \times \text{Global Multi} \Big) \\
+\text{True DMG} &= \text{RoundEven}\Big( \max\big(1, \text{Base DMG} \times \text{Mastery} \\
+&\quad  \times \text{Hit Location}\big) \times \text{Break} \times \text{Global Multi} \Big) \\
 \end{aligned}
 $$
 
@@ -312,9 +312,8 @@ Final Healing \= RoundEven(Base Healing × (1 \+ Healing Bonus% \+ Incoming Heal
 
 $$
 \begin{aligned}
-\text{Final Healing} &= \text{RoundEven}\Big( \text{Base Healing} \\
-&\quad \times (1 + \text{Healing Bonus\%} + \text{Incoming Healing Bonus}) \\
-&\quad \times \text{Global Multi} \Big) \\
+\text{Final Healing} &= \text{RoundEven}\Big( \text{Base Healing} \times (1 + \text{Healing Bonus\%} \\
+&\quad + \text{Incoming Healing Bonus\%}) \times \text{Global Multi} \Big) \\ 
 \end{aligned}
 $$
 
@@ -335,8 +334,7 @@ Shield Generation \= Base Stat × Shield Multiplier × (1 \+ Shield Effectivenes
 
 $$
 \begin{aligned}
-\text{Shield Generation} &= \text{Stat} \times \text{Shield Multiplier} \\
-&\quad \times (1 + \text{Shield Effectiveness}) \\
+\text{Shield Generation} &= \text{Stat} \times \text{Shield Multiplier} \times (1 + \text{Shield Effectiveness}) \\
 \end{aligned}
 $$
 
