@@ -244,8 +244,6 @@ Level Pressure only affects DMG in areas such as the open world. In Domains and 
 
 Some Elements are stronger or weaker against each other, increasing or decreasing the Restraint Multiplier by 25% based on the Elemental matchup. Targets can have multiple Elements, resulting in double Advantages, double Disadvantages or neutral DMG if one Element’s Advantage cancels out the other’s Disadvantage. Non-Elemental DMG has no Advantage or Disadvantage to any other Element. 
 
-Restraint Multiplier \= 1 \+ 0.25 × (Number of Elemental Advantages \- Number of Elemental Disadvantages)
-
 $$
 \begin{aligned}
 \text{Restraint} &= 1 + 0.25 \times (\text{Number of Elemental Advantages} \\
@@ -256,8 +254,6 @@ $$
 ## Break Multiplier
 
 Elite and Boss enemies have a Poise meter that, once depleted to zero, causes the enemy to become Broken for a period of time. During this time, the Break Multiplier is active:
-
-Break Multiplier \= (1 \+ Break Vulnerability) × (1 \+ Break Direct DMG Vulnerability)
 
 $$
 \begin{aligned}
@@ -272,7 +268,11 @@ By default, an enemy has \+100% Break Vulnerability when Broken. Break Vulnerabi
 
 An additional multiplier used for special effects. Exists but appears to be rarely used.
 
-Global Multiplier \= 1 \+ Global Bonus%
+$$
+\begin{aligned}
+\text{Global Multiplier} &= 1 + \text{Global Bonus\%}\\
+\end{aligned}
+$$
 
 ## Special DMG Formulas
 
