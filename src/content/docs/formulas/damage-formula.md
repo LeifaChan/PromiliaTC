@@ -207,7 +207,7 @@ To determine if an attack results in a Critical Hit, the game rolls a random num
 
 $$
 \begin{aligned}
-\text{Effective CRIT Rate} = \min\Big(1,\; \max(0,\; \text{Combat CRIT Rate} \\
+\text{Effective CRIT Rate} &= \min\Big(1,\; \max(0,\; \text{Combat CRIT Rate} \\
 &\quad - \text{Combat CRIT Rate Resistance})\Big) \\
 \end{aligned}
 $$
@@ -218,9 +218,16 @@ Also called Overlimit Strength, but now affects all DMG as of the release versio
 
 Mastery Multiplier \= 1 \+ Overlimit Strength / 4000
 
+$$
+\begin{aligned}
+\text{Mastery Multiplier} = 1 + \frac{\text{Overlimit Strength}}{4000} \\
+\end{aligned}
+$$
+
+
 ## Hit Location Multiplier
 
-Large enemies are made up of multiple hitboxes, with different parts of their body having a unique DMG Multiplier. This differs depending on enemies but some enemies take 1.1× DMG hitting their weak point and 0.9× DMG hitting armored areas. By default this multiplier is 1.0×.
+Large enemies are made up of multiple hitboxes, with different parts of their body having a unique DMG Multiplier. This differs depending on the enemy. Some take 1.1× DMG hitting their weak point and 0.9× DMG hitting armored areas. By default this multiplier is 1.0×.
 
 Hit Location Multiplier \= 0.9× \- 1.1× depending on Body Part.
 
