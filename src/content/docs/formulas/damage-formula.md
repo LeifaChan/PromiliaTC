@@ -282,11 +282,28 @@ DoT effects typically can not trigger a Critical Hit unless “Can Crit” is se
 
 DoT DMG \= RoundEven(max(1, Base DMG × DEF Multi × Elemental DMG Multi × Generic DMG Multi × Mastery Multi × Level Pressure Multi) × Restraint Multi)
 
+$$
+\begin{aligned}
+\text{DoT DMG} &= \text{RoundEven}\Big( \max\big(1, \\
+&\quad \text{Base DMG} \times \text{DEF Multi} \times \text{Elemental DMG Multi} \\
+&\quad \times \text{Generic DMG Multi} \times \text{Mastery Multi} \\
+&\quad \times \text{Level Pressure Multi}\big) \times \text{Restraint Multi} \Big) \\
+\end{aligned}
+$$
+
 ### True DMG Formula
 
 True DMG ignores all multipliers that affect Initial DMG and Restraint DMG, aside from the Mastery Multiplier and Hit Location Multiplier, giving the following formula:
 
 True DMG \= RoundEven(max(1, Base DMG  × Mastery Multi × Hit Location Multi) × Break Multi × Global Multi)
+
+$$
+\begin{aligned}
+\text{True DMG} &= \text{RoundEven}\Big( \max\big(1, \\
+&\quad \text{Base DMG} \times \text{Mastery Multi} \times \text{Hit Location Multi}\big) \\
+&\quad \times \text{Break Multi} \times \text{Global Multi} \Big) \\
+\end{aligned}
+$$
 
 True DMG additionally ignores any Shields the target currently has, directly reducing their Current HP. Currently, True DMG is non-lethal and will not reduce a Target’s Current HP lower than 1\.
 
@@ -294,14 +311,35 @@ True DMG additionally ignores any Shields the target currently has, directly red
 
 Final Healing \= RoundEven(Base Healing × (1 \+ Healing Bonus% \+ Incoming Healing Bonus) × Global Multi)
 
+$$
+\begin{aligned}
+\text{Final Healing} &= \text{RoundEven}\Big( \text{Base Healing} \\
+&\quad \times (1 + \text{Healing Bonus\%} + \text{Incoming Healing Bonus}) \\
+&\quad \times \text{Global Multi} \Big) \\
+\end{aligned}
+$$
+
 #### Base Healing
 
 Currently, the Stats used for Healing can be one of ATK, Max HP or DEF:  
 Base Healing \= Stat × Skill Healing Multiplier
 
+$$
+\begin{aligned}
+\text{Base Healing} &= \text{Stat} \times \text{Skill Healing Multiplier} \\
+\end{aligned}
+$$
+
 ### Shield Generation Formula
 
 Shield Generation \= Base Stat × Shield Multiplier × (1 \+ Shield Effectiveness Bonus)
+
+$$
+\begin{aligned}
+\text{Shield Generation} &= \text{Stat} \times \text{Shield Multiplier} \\
+&\quad \times (1 + \text{Shield Effectiveness}) \\
+\end{aligned}
+$$
 
 ### Lifesteal and DMG Reflection Formulas
 
@@ -309,7 +347,19 @@ Lifesteal uses the final amount of DMG dealt to the target’s HP gauge as an In
 
 Lifesteal Healing \= Final HP DMG Dealt × Lifesteal Skill Multiplier
 
+$$
+\begin{aligned}
+\text{Lifesteal} &= \text{Final HP DMG Dealt} \times \text{Lifesteal Skill Multiplier} \\
+\end{aligned}
+$$
+
 DMG Reflection on the other hand uses the full DMG taken by the target as its input:
 
 DMG Reflection \= Total Final DMG Dealt × Reflection Skill Multiplier
+
+$$
+\begin{aligned}
+\text{Lifesteal} &= \text{Total Final DMG Dealt} \times \text{Reflection Skill Multiplier} \\
+\end{aligned}
+$$
 
