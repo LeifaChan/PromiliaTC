@@ -54,7 +54,7 @@ $$
 ### Staged Stat Calculations
 
 Similarly to the DMG formula, all combat-related stats have three key stages. Stats that currently fall under this system include:  
-ATK, Max HP, DEF, CRIT Rate, CRIT DMG, Overlimit Strength, Poise DMG, Elemental DMG Bonus, DEF Penetration and Energy Recharge.
+ATK, Max HP, DEF, Crit Rate, Crit DMG, Overlimit Strength, Poise DMG, Elemental DMG Bonus, DEF Penetration and Energy Recharge.
 
 #### Base Stats
 
@@ -112,7 +112,7 @@ $$
 
 Some effects grant a “Forced Numerical Override”, replacing any stat calculated in the Combat Stat step before multiplying by the Global Scaling Coefficient.
 
-Stats such as DMG Bonuses and CRIT Rate that are always displayed as percentages are stored as decimals and fall into the Flat Stat category. 
+Stats such as DMG Bonuses and Crit Rate that are always displayed as percentages are stored as decimals and fall into the Flat Stat category. 
 
 ## DEF Multiplier
 
@@ -181,7 +181,7 @@ $$
 
 ## Crit Multiplier
 
-When a critical hit occurs, the game multiplies DMG by the displayed CRIT DMG value, rather than adding 1 to the initial multiplier:
+When a Critical hit occurs, the game multiplies DMG by the displayed Crit DMG value, rather than adding 1 to the initial multiplier:
 
 $$
 \begin{aligned}
@@ -195,14 +195,14 @@ $$
 \end{aligned}
 $$
 
-### CRIT Rate
+### Crit Rate
 
-To determine if an attack results in a Critical Hit, the game rolls a random number between 0 and 1\. IF this number is less than the attack’s Effective CRIT Rate, the resulting hit is a Critical Hit.
+To determine if an attack results in a Critical Hit, the game rolls a random number between 0 and 1\. IF this number is less than the attack’s Effective Crit Rate, the resulting hit is a Critical Hit.
 
 $$
 \begin{aligned}
-\text{Effective CRIT Rate} &= \min\Big(1,\; \max(0,\; \text{Combat CRIT Rate} \\
-&\quad - \text{Combat CRIT Rate Resistance})\Big) \\
+\text{Effective Crit Rate} &= \min\Big(1,\; \max(0,\; \text{Combat Crit Rate} \\
+&\quad - \text{Combat Crit Rate Resistance})\Big) \\
 \end{aligned}
 $$
 
