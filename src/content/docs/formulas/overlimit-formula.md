@@ -79,7 +79,7 @@ Also called Overlimit Strength, primarily used to increase the DMG dealt by Over
 
 $$
 \begin{aligned}
-\text{Mastery Multiplier} &= 1 + \frac{\text{Overlimit Strength}}{100} \\
+\text{Mastery} &= 1 + \frac{\text{Overlimit Strength}}{100} \\
 \end{aligned}
 $$
 
@@ -89,6 +89,6 @@ Compared to Normal DMG and True DMG, Overlimit DMG only benefits from Break Vuln
 
 $$
 \begin{aligned}
-\text{Break Multiplier} &= (1 + \text{Break Vulnerability}) \\
+\text{Break} &= (1 + \text{Break Vulnerability}) \\
 \end{aligned}
 $$

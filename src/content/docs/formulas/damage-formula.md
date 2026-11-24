@@ -181,7 +181,7 @@ $$
 
 ## Crit Multiplier
 
-When a Critical hit occurs, the game multiplies DMG by the displayed Crit DMG value, rather than adding 1 to the initial multiplier:
+When a Critical hit occurs, the game multiplies DMG by the displayed Crit DMG value, rather than adding 1 to the initial Multiplier:
 
 $$
 \begin{aligned}
@@ -212,7 +212,7 @@ Also called Overlimit Strength, but now affects all DMG as of the release versio
 
 $$
 \begin{aligned}
-\text{Mastery Multiplier} &= 1 + \frac{\text{Overlimit Strength}}{4000} \\
+\text{Mastery} &= 1 + \frac{\text{Overlimit Strength}}{4000} \\
 \end{aligned}
 $$
 
