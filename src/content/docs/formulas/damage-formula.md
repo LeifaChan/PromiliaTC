@@ -101,8 +101,6 @@ Some specific skills and DoT effects do not check the attacker’s current Comba
 
 Upon entering combat, In Combat buffs, auras (such as Elemental Tuning Marks), equipment skill passives and debuffs take place on top of the Initial Stats dynamically. 
 
-Combat Stats \= ((Initial Stat \+ In Combat Base Changes) × (1 \+ Combat Stat%) \+ Flat Combat Stat) × Global Scaling Coefficient
-
 $$
 \begin{aligned}
 \text{Combat Stats} &= \Big(\big(\text{Initial Stat} + \text{Combat Base Changes}\big) \\
@@ -119,6 +117,12 @@ Stats such as DMG Bonuses and CRIT Rate that are always displayed as percentages
 ## DEF Multiplier
 
 DEF Multiplier \= ALC / (ALC \+ Effective DEF)
+
+$$
+\begin{aligned}
+\text{DEF Multiplier} &= \frac{\text{ALC}} \big(1 + \text{ALC} + \text{Effective DEF}\big)} \\
+\end{aligned}
+$$
 
 ### Attacker Level Coefficient
 
