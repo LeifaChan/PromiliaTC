@@ -185,7 +185,7 @@ When a Critical hit occurs, the game multiplies DMG by the displayed Crit DMG va
 
 $$
 \begin{aligned}
-\text{Crit Multiplier} &= \text{Combat Crit DMG} - \text{Combat Crit Dmg Reduction} \\
+\text{Crit Multiplier} &= \text{Combat Crit DMG} - \text{Combat Crit DMG Reduction} \\
 \end{aligned}
 $$
 
