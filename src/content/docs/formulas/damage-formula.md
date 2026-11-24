@@ -1,5 +1,5 @@
 ---
-title: 'Azur Promilia: DMG Formula Documentation'
+title: 'General Damage Formula'
 description: 'Document by: Leifa. Thank you very much to 666bj and Mero for assistance figuring out the game’s formulas\!'
 ---
 
