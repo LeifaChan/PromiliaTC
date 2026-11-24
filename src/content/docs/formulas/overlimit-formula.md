@@ -73,6 +73,16 @@ $$
 \end{aligned}
 $$
 
+## Mastery Multiplier
+
+Also called Overlimit Strength, primarily used to increase the DMG dealt by Overlimit DMG, but now affects all DMG as of the release version. Normal DMG utilises a different Mastery Coefficient to Overlimit DMG. For how the Mastery Multiplier affects Normal DMG, please see the General Damage Formula document.
+
+$$
+\begin{aligned}
+\text{Mastery Multiplier} &= 1 + \frac{\text{Overlimit Strength}}{100} \\
+\end{aligned}
+$$
+
 ## Break Multiplier
 
 Compared to Normal DMG and True DMG, Overlimit DMG only benefits from Break Vulnerability and does not benefit from Direct Break Vulnerability. The +100% Break Vulnerability when Broken is shared amongst all damage formulas.
