@@ -23,15 +23,13 @@ When characters or Kibo use specific skills, they can generate or consume Elemen
 
 ## Overdrive System and Overlimit DMG
 
-When characters or Kibo consume Elemental Sigils, they trigger the Overdrive effect of that specific Element, dealing Overlimit DMG based on the triggering character's ATK and granting additional buffs.
+When characters or Kibo consume Elemental Sigils, they trigger the Overdrive effect of that specific Element, dealing Overlimit DMG based on the triggering character's ATK and granting additional buffs. Each skill will specify how many Elemental Sigils it can consume, either requiring a minimum amount or consuming up to a maximum amount. 
 
 $$
 \begin{aligned}
 \text{Overlimit Base DMG} &= 40.0\% \times \text{Sigils Consumed} \times \text{ATK} \\
 \end{aligned}
 $$
-
-<div class="nowrap-cols">
 
 | Overdrive&nbsp;Type | Required&nbsp;Sigil | Overdrive&nbsp;Effect |
 | --- | --- | --- |
@@ -45,5 +43,4 @@ $$
 | EXPOSURE | Light Sigil | Deals Light Overlimit DMG and additional True DMG equal to 30% of the triggering character's ATK per Sigil consumed. |
 | SHATTER | Dark Sigil | Deals Dark Overlimit DMG and decreases the target's Elemental DMG Resistance by 0.4% per Sigil consumed for 15s. |
 
-</div>
 
