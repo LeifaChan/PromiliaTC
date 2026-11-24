@@ -118,15 +118,13 @@ Stats such as DMG Bonuses and CRIT Rate that are always displayed as percentages
 
 $$
 \begin{aligned}
-\text{DEF Multiplier} = \frac{\text{ALC}}{\text{ALC} + \text{Effective DEF}} \\
+\text{DEF Multiplier} &= \frac{\text{ALC}}{\text{ALC} + \text{Effective DEF}} \\
 \end{aligned}
 $$
 
 ### Attacker Level Coefficient
 
 The Attacker Level Coefficient (shortened to ALC) is determined based on the attacker’s level and increases linearly:
-
-ALC \= 500 \+ 5 × Attacker Level
 
 $$
 \begin{aligned}
@@ -138,8 +136,6 @@ $$
 
 Flat sources of DEF PEN take place before DEF PEN%. Effective DEF can not go below 0\.
 
-Effective DEF \= max(0, Target’s Combat DEF \- Attacker’s Flat DEF Penetration) × (1 \- Attacker’s DEF Penetration%))
-
 $$
 \begin{aligned}
 \text{Effective DEF} &= \max\Big(0,\; (\text{Target's Combat DEF} - \text{Flat DEF Penetration}) \\
@@ -149,11 +145,9 @@ $$
 
 ### Enemy Base DEF
 
-Enemy Base DEF \= (500 \+ (5 × Enemy Level) × Enemy DEF Coefficient
-
 $$
 \begin{aligned}
-\text{Enemy Base DEF} = \big(500 + (5 \times \text{Enemy Level})\big) \times \text{Enemy DEF Coefficient} \\
+\text{Enemy Base DEF} &= \big(500 + (5 \times \text{Enemy Level})\big) \times \text{Enemy DEF Coefficient} \\
 \end{aligned}
 $$
 
@@ -170,6 +164,12 @@ Currently, enemy DEF changes based on their DEF Coefficient. This varies between
 The Elemental DMG Multiplier includes both Elemental DMG Bonuses and Elemental DMG Resistance stats. Currently, 11 different Elemental types exist: Fire, Wind, Earth, Wood, Ice, Water, Lightning, Light, Dark, Physical and “All Elements”. Effects that specify an Element such as “Fire DMG \+X%” or “Enemy Fire Resistance \+X%” are found here.
 
 Elemental DMG Multiplier \= 1 \+ Elemental DMG Bonus \- Elemental DMG Resistance
+
+$$
+\begin{aligned}
+\text{Elemental DMG} &= 1 + text{Elemental DMG Bonus} - \text{Elemental DMG Resistance} \\
+\end{aligned}
+$$
 
 ## Generic DMG Multiplier
 
