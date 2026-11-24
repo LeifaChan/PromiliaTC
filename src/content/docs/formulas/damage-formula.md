@@ -151,6 +151,12 @@ $$
 
 Enemy Base DEF \= (500 \+ (5 × Enemy Level) × Enemy DEF Coefficient
 
+$$
+\begin{aligned}
+\text{Enemy Base DEF} = \big(500 + (5 \times \text{Enemy Level})\big) \times \text{Enemy DEF Coefficient} \\
+\end{aligned}
+$$
+
 #### Enemy DEF Coefficient
 
 Currently, enemy DEF changes based on their DEF Coefficient. This varies between all enemies but current measurements of DEF Coefficients is:
