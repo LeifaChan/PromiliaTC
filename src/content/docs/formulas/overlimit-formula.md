@@ -27,7 +27,7 @@ When characters or Kibo consume Elemental Sigils, they trigger the Overdrive eff
 
 $$
 \begin{aligned}
-\text{Overlimit Base DMG} &= 40.0\% \times \text{Sigils Consumed} \times \text{ATK} \\
+\text{Base DMG} &= 40.0\% \times \text{Sigils Consumed} \times \text{ATK} \\
 \end{aligned}
 $$
 
@@ -47,7 +47,7 @@ $$
 
 $$
 \begin{aligned}
-\text{Final Overlimit DMG} &= \text{RoundEven}\Big( \max\big(1, \text{Overlimit Base DMG} \times \text{DEF Multiplier} \\
+\text{Overlimit DMG} &= \text{RoundEven}\Big( \max\big(1, \text{Base DMG} \times \text{DEF Multiplier} \\
 &\quad \times \text{Elemental DMG} \times \text{Generic DMG} \times \text{Overlimit Crit} \times \text{Mastery} \\
 &\quad \times \text{Hit Location} \times \text{Level Pressure} \times \text{Restraint}\big) \Big) \\
 \end{aligned}
