@@ -232,8 +232,6 @@ $$
 
 Level Pressure reduces the DMG and Poise DMG dealt by an attacker based on the difference between the attacker and the target’s levels. This multiplier can not go beyond 1, serving only to reduce DMG if the attacker is notably lower level than a target.
 
-Level Pressure Multiplier \= 0.96 ^ (max(0, Target Level \- Attacker Level)
-
 $$
 \begin{aligned}
 \text{Level Pressure} = 0.96^{\max(0,\; \text{Target Level} - \text{Attacker Level})} \\
@@ -248,13 +246,27 @@ Some Elements are stronger or weaker against each other, increasing or decreasin
 
 Restraint Multiplier \= 1 \+ 0.25 × (Number of Elemental Advantages \- Number of Elemental Disadvantages)
 
+$$
+\begin{aligned}
+\text{Restraint} &= 1 + 0.25 \times (\text{Number of Elemental Advantages} \\
+&\quad - \text{Number of Elemental Disadvantages}) \\
+\end{aligned}
+$$
+
 ## Break Multiplier
 
 Elite and Boss enemies have a Poise meter that, once depleted to zero, causes the enemy to become Broken for a period of time. During this time, the Break Multiplier is active:
 
 Break Multiplier \= (1 \+ Break Vulnerability) × (1 \+ Break Direct DMG Vulnerability)
 
-By default, an enemy has \+100% Break Vulnerability when Broken. Break Vulnerability and Break Direct DMG Vulnerability are part of this Multiplier but are multiplicative with each other. Overlimit DMG currently is only affected by Break Vulnerability and not by Break Direct DMG Vulnerability.
+$$
+\begin{aligned}
+\text{Break} &= (1 + \text{Break Vulnerability}) \\
+&\quad \times (1 + \text{Direct Break DMG Vulnerability}) \\\\
+\end{aligned}
+$$
+
+By default, an enemy has \+100% Break Vulnerability when Broken. Break Vulnerability and Direct Break DMG Vulnerability are part of this Multiplier but are multiplicative with each other. Overlimit DMG currently is only affected by Break Vulnerability and not by Direct Break DMG Vulnerability.
 
 ## Global Multiplier
 
