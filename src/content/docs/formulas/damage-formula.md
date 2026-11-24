@@ -21,8 +21,8 @@ $$
 \begin{aligned}
 \text{Final DMG} = \text{RoundEven}\Big( \max\big(1,\; &\text{Base DMG} \times \text{DEF Multi} \times \text{Elemental DMG Multi} \\
 &\times \text{Generic DMG Multi} \times \text{Crit Multi} \times \text{Mastery Multi} \\
-&\times \text{Hit Location Multi} \times \text{Level Pressure Multi} \times \text{Restraint Multi}\big) \\
-&\times \text{Global Multi} \times \text{Break Multi} \Big)
+&\times \text{Hit Location Multi} \times \text{Level Pressure Multi}\big) \\
+&\times \text{Restraint Multi} \times \text{Global Multi} \times \text{Break Multi} \Big)
 \end{aligned}
 $$
 
