@@ -72,3 +72,13 @@ $$
 \text{Effective Overlimit Crit Multiplier} &= 1 + \text{Overlimit Crit Rate} \times (2.0 - 1) \\
 \end{aligned}
 $$
+
+## Break Multiplier
+
+Compared to Normal DMG and True DMG, Overlimit DMG only benefits from Break Vulnerability and does not benefit from Direct Break Vulnerability. The +100% Break Vulnerability when Broken is shared amongst all DMG Types.
+
+$$
+\begin{aligned}
+\text{Break} &= (1 + \text{Break Vulnerability}) \\
+\end{aligned}
+$$

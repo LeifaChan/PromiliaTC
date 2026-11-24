@@ -258,11 +258,11 @@ Elite and Boss enemies have a Poise meter that, once depleted to zero, causes th
 $$
 \begin{aligned}
 \text{Break} &= (1 + \text{Break Vulnerability}) \\
-&\quad \times (1 + \text{Direct Break DMG Vulnerability}) \\\\
+&\quad \times (1 + \text{Direct Break Vulnerability}) \\\\
 \end{aligned}
 $$
 
-By default, an enemy has \+100% Break Vulnerability when Broken. Break Vulnerability and Direct Break DMG Vulnerability are part of this Multiplier but are multiplicative with each other. Overlimit DMG currently is only affected by Break Vulnerability and not by Direct Break DMG Vulnerability.
+By default, an enemy has \+100% Break Vulnerability when Broken. Break Vulnerability and Direct Break Vulnerability are part of this Multiplier but are multiplicative with each other. Overlimit DMG currently is only affected by Break Vulnerability and not by Direct Break Vulnerability.
 
 ## Global Multiplier
 
