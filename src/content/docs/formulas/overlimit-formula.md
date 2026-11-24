@@ -7,7 +7,7 @@ description: 'Document by: Leifa. Thank you very much to 666bj and Mero for assi
 
 ## Overlimit DMG Formula
 
-Only new Multipliers or Multipliers that work differently will be covered on this page. For all traditional Multipliers, please see the General Damage Formula doc. The full DMG formula for Overlimit DMG is as follows:
+Only new Multipliers or Multipliers that work differently will be covered on this page. For all traditional Multipliers, please see the General Damage Formula document. The full DMG formula for Overlimit DMG is as follows:
 
 $$
 \begin{aligned}
