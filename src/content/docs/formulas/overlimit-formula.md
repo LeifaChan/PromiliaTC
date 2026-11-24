@@ -9,7 +9,7 @@ description: 'Document by: Leifa. Thank you very much to 666bj and Mero for assi
 
 When characters or Kibo use specific skills, they can generate or consume Elemental Sigils. Sigils are a resource shared by the whole team and grant a buff both when active. Up to a maximum of 5 Sigils of each Element can be held at once, with repeated triggers past 5 refreshing their duration. If no Sigils of a specific Element are gained for a set period of time, they will naturally decay and disappear one by one. Each Element has its own Elemental Sigil with different effects:
 
-| Sigil Type | Sigil Effect |
+| Sigil&nbsp;Type | Sigil&nbsp;Effect |
 | --- | --- |
 | Fire Sigil | Increases ATK by 0.5% per Sigil. |
 | Water Sigil | Increases Generic DMG Bonus by 0.4% per Sigil. |
@@ -33,7 +33,7 @@ $$
 
 <div class="nowrap-cols">
 
-| Overdrive Type | Required Sigil | Overdrive Effect |
+| Overdrive&nbsp;Type | Required&nbsp;Sigil | Overdrive&nbsp;Effect |
 | --- | --- | --- |
 | BLAST | Fire Sigil | Deals Fire Overlimit DMG and deals additional Fire Overlimit DMG equal to 10.0% of the triggering character's ATK per Sigil consumed per second for 6s.|
 | DROWN | Water Sigil | Deals Water Overlimit DMG and reduces the target's DEF by 0.5% per Sigil consumed for 15s. |
