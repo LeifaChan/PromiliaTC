@@ -173,8 +173,6 @@ $$
 
 Generic DMG Bonus and DMG Reduction sources are a separate multiplier to Elemental DMG and include all DMG Increase / Reduction effects that do not specify an Element. Specific Skill DMG Bonuses also fall under this category, with no separate multiplier for specifically “Basic Attack DMG Increased” or “Starcall Art DMG Increased”. 
 
-Generic DMG Multiplier \= 1 \+ DMG Bonus \- DMG Reduction
-
 $$
 \begin{aligned}
 \text{Generic DMG} &= 1 + \text{DMG Bonus} - \text{DMG Reduction} \\
@@ -185,15 +183,11 @@ $$
 
 When a critical hit occurs, the game multiplies DMG by the displayed CRIT DMG value, rather than adding 1 to the initial multiplier:
 
-CRIT Multiplier \= Combat CRIT DMG \- Combat CRIT DMG Reduction
-
 $$
 \begin{aligned}
 \text{Crit Multiplier} &= \text{Combat Crit DMG} - \text{Combat Crit Dmg Reduction} \\
 \end{aligned}
 $$
-
-Effective CRIT Multiplier \= 1 \+ Effective CRIT Rate × (CRIT Multiplier \- 1\)
 
 $$
 \begin{aligned}
@@ -216,8 +210,6 @@ $$
 
 Also called Overlimit Strength, but now affects all DMG as of the release version. Normal DMG utilises a different Mastery Coefficient to Overlimit DMG. For Overlimit DMG mechanics, please see the Overlimit DMG document.
 
-Mastery Multiplier \= 1 \+ Overlimit Strength / 4000
-
 $$
 \begin{aligned}
 \text{Mastery Multiplier} = 1 + \frac{\text{Overlimit Strength}}{4000} \\
@@ -230,6 +222,13 @@ $$
 Large enemies are made up of multiple hitboxes, with different parts of their body having a unique DMG Multiplier. This differs depending on the enemy. Some take 1.1× DMG hitting their weak point and 0.9× DMG hitting armored areas. By default this multiplier is 1.0×.
 
 Hit Location Multiplier \= 0.9× \- 1.1× depending on Body Part.
+
+$$
+\begin{aligned}
+\text{Hit Location} = 0.9 \sim 1.1 \text{depending on Body Part} \\
+\end{aligned}
+$$
+
 
 ## Level Pressure Multiplier
 
