@@ -73,7 +73,20 @@ $$
 
 Kibo Base Stats \= (Level Base Growth Value × Nature Multiplier × Six-Stat Aptitude Multiplier) \+ Origin Vein Bonus
 
+$$
+\begin{aligned}
+\text{Kibo Base Stats} &= \text{Level Base Growth Value} \times \text{Nature Multi} \\
+&\quad \times \text{Six-Stat Aptitude Multi} + \text{Origin Vein Bonus} \\
+\end{aligned}
+$$
+
 Kibo Base CRIT Rate \= Base Crit Rate \+ Crit Aptitude Bonus \+ Origin Vein Bonus
+
+$$
+\begin{aligned}
+\text{Kibo Based Crit Rate} &= \text{Base Crit Rate} + \text{Crit Aptitude Bonus} + \text{Origin Vein Bonus} \\
+\end{aligned}
+$$
 
 #### Initial Stats
 
