@@ -120,7 +120,7 @@ DEF Multiplier \= ALC / (ALC \+ Effective DEF)
 
 $$
 \begin{aligned}
-\text{DEF Multiplier} &= \frac{\text{ALC}} \big(1 + \text{ALC} + \text{Effective DEF}\big)} \\
+\text{DEF Multiplier} = \frac{\text{ALC}}{\text{ALC} + \text{Effective DEF}} \\
 \end{aligned}
 $$
 
