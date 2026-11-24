@@ -9,8 +9,10 @@ export default defineConfig({
 	integrations: [
 
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'LeifaTC',
+			social: [{ icon: 'twitch', label: 'Twitch', href: 'https://twitch.tv/leifavt' }, 
+					 { icon: 'youtube', label: 'YouTube', href: 'https://www.youtube.com/@LeifaVT' },
+			],
 			sidebar: [
 				{
 					label: 'Guides',
