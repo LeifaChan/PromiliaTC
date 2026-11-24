@@ -207,7 +207,8 @@ To determine if an attack results in a Critical Hit, the game rolls a random num
 
 $$
 \begin{aligned}
-\text{Effective CRIT Rate} = \min\Big(1,\; \max(0,\; \text{Combat CRIT Rate} - \text{Combat CRIT Rate Resistance})\Big) \\
+\text{Effective CRIT Rate} = \min\Big(1,\; \max(0,\; \text{Combat CRIT Rate} \\
+&\quad - \text{Combat CRIT Rate Resistance})\Big) \\
 \end{aligned}
 $$
 
