@@ -55,3 +55,20 @@ $$
 | SHOCK | Lightning Sigil | Deals Lightning Overlimit DMG and increases the active character's DEF Penetration by 0.3% per Sigil consumed for 15s. |
 | EXPOSURE | Light Sigil | Deals Light Overlimit DMG and additional True DMG equal to 30% of the triggering character's ATK per Sigil consumed. |
 | SHATTER | Dark Sigil | Deals Dark Overlimit DMG and decreases the target's Elemental DMG Resistance by 0.4% per Sigil consumed for 15s. |
+
+## Overlimit Crit Multiplier
+
+Overlimit DMG uses a different Crit Multiplier to Normal DMG and True DMG, instead having a fixed 200% Crit DMG and a separate Overlimit Crit Rate stat.
+
+$$
+\text{Overlimit Crit Multiplier} = \begin{cases}
+\mathbf{2.0}, & \text{If DMG is a Critical Hit} \\
+\mathbf{1.0}, & \text{If DMG is not a Critical Hit} \\
+\end{cases}
+$$
+
+$$
+\begin{aligned}
+\text{Effective Overlimit Crit Multiplier} &= 1 + \text{Overlimit Crit Rate} \times (2.0 - 1) \\
+\end{aligned}
+$$
