@@ -47,6 +47,12 @@ Currently, ATK is the primary Stat utilised by most skills, while Max HP and DEF
 
 Base DMG \= Stat × Skill Multiplier
 
+$$
+\begin{aligned}
+\text{Base DMG} &= \text{Stat} \times \text{Skill Multiplier} \\
+\end{aligned}
+$$
+
 ### Staged Stat Calculations
 
 Similarly to the DMG formula, all combat-related stats have three key stages. Stats that currently fall under this system include:  
@@ -57,6 +63,12 @@ ATK, Max HP, DEF, CRIT Rate, CRIT DMG, Overlimit Strength, Poise DMG, Elemental 
 The white stat number seen in a character’s stat page. Base Max HP is Floored before entering Initial Stats, while all other stats retain all decimals.
 
 Character Base Stats \= Level Base Growth Value \+ Ascension Bonus \+ Star Gift Bonus \+ Lumen Base Value \+ String Tuning Base Stat
+
+$$
+\begin{aligned}
+\text{Character Base Stats} &= \text{Level Base Growth Value} \add \text{Ascension Bonus} \add \text{Star Gift Bonus} \add \text{Lumen Base Value}  \add \text{String Tuning Base Stat} \\
+\end{aligned}
+$$
 
 Kibo Base Stats \= (Level Base Growth Value × Nature Multiplier × Six-Stat Aptitude Multiplier) \+ Origin Vein Bonus
 
