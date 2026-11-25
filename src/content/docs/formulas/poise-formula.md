@@ -9,10 +9,8 @@ Elite and Boss enemies have a Poise Meter that, once fully depleted, causes them
 
 - Bosses: 12.000 Poise
 - Elites: 9,600 Poise
-
 ## Poise DMG Formula
-
-Poise DMG = Break Value * Poise Skill Multiplier * Break Efficiency * Poise RES * Elemental Poise RES * Level Pressure 
+Poise DMG is technically clamped between an enemy's Min Poise and Max Poise stats. However, many enemies seem to not use this system so it has currently been ignored.
 
 $$
 \begin{aligned}
@@ -22,15 +20,17 @@ $$
 \end{aligned}
 $$
 
-Poise is clamped between the Single hit poise floor and ceiling
-
 ## Poise Skill Multiplier
 All skills have specific Poise Skill Multipliers that are not shown to the player. Please check wikis to find a character's Poise Multipliers for calculations. 
 
-## Break Efficiency
-Includes general Poise Break Efficiency and Skill-specific Break Efficiency effects.
+## Break Efficiency Multiplier
+Break Efficiency is the Poise equivalent of DMG Bonus stats, increasing Poise dealt by a certain amount. This includes general Poise Break Efficiency and Skill-specific Break Efficiency effects.
 
-Break Efficiency = 1 + Break Efficiency%
+$$
+\begin{aligned}
+\text{Break Efficiency Multiplier} &=(1 + \text{Break Efficiency\%}  \\
+\end{aligned}
+$$
 
 ## Poise RES and Elemental Poise RES
 Enemies each have a universal Poise RES and specific Elemental Poise RES stats for each Element. These two stats are multiplicative with each other and are separate to the Restraint Multiplier found on Normal DMG. Currently, any enemy I have encountered has both of these values at 1.0.
