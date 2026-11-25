@@ -28,7 +28,7 @@ Break Efficiency is the Poise equivalent of DMG Bonus, increasing Poise DMG deal
 
 $$
 \begin{aligned}
-\text{Break Efficiency Multiplier} &=(1 + \text{Break Efficiency\%}  \\
+\text{Break Efficiency Multiplier} &= 1 + \text{Break Efficiency\%}  \\
 \end{aligned}
 $$
 
