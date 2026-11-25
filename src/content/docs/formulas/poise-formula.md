@@ -24,7 +24,7 @@ $$
 All skills have specific Poise Skill Multipliers that are not shown to the player. Please check wikis to find a character's Poise Multipliers for calculations. 
 
 ## Break Efficiency Multiplier
-Break Efficiency is the Poise equivalent of DMG Bonus stats, increasing Poise dealt by a certain amount. This includes general Poise Break Efficiency and Skill-specific Break Efficiency effects.
+Break Efficiency is the Poise equivalent of DMG Bonus, increasing Poise DMG dealt by a certain amount. This includes general Poise Break Efficiency and Skill-specific Break Efficiency effects.
 
 $$
 \begin{aligned}
