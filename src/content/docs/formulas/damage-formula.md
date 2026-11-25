@@ -63,7 +63,7 @@ The white stat number seen in a character’s stat page. Base Max HP is Floored 
 $$
 \begin{aligned}
 \text{Character Base Stats} &= \text{Level Base Growth Value} + \text{Ascension Bonus} + \text{Star Gift Bonus} \\
-&\quad + \text{Lumen Base Value} + \text{String Tuning Base Stat} \\
+&\quad + \text{Anima Base Value} + \text{String Tuning Base Stat} \\
 \end{aligned}
 $$
 
@@ -90,7 +90,7 @@ $$
 \end{aligned}
 $$
 
-Initial Percent Stats include Lumen % substats, equipment main and secondary % stats (e.g. ATK%, HP%, DEF%), High-Rank Ascension ATK%, Tuning % buffs, “Kibo Factor Chain” and “Shining Aptitude buffs”.  
+Initial Percent Stats include Anima % substats, equipment main and secondary % stats (e.g. ATK%, HP%, DEF%), High-Rank Ascension ATK%, Tuning % buffs, “Kibo Factor Chain” and “Shining Aptitude buffs”.  
 Flat Initial Stats include equipment flat stats (e.g. Flat ATK, Flat HP, Flat DEF) and character Affinity bonuses. 
 
 Kibos also inherit a percentage of a character’s Initial ATK, Max HP and DEF based on their Bond Level. These values are rounded down and added to their Flat Initial Stats. 
