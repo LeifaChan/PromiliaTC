@@ -262,7 +262,7 @@ $$
 \end{aligned}
 $$
 
-By default, an enemy has \+100% Break Vulnerability when Broken. Break Vulnerability and Direct Break Vulnerability are part of this Multiplier but are multiplicative with each other. Overlimit DMG currently is only affected by Break Vulnerability and not by Direct Break Vulnerability.
+By default, enemies have either \+50% or \+100% Break Vulnerability when Broken. Break Vulnerability and Direct Break Vulnerability are part of this Multiplier but are multiplicative with each other. Overlimit DMG currently is only affected by Break Vulnerability and not by Direct Break Vulnerability.
 
 ## Global Multiplier
 
